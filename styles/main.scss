@@ -1,0 +1,51 @@
+.info {
+  width: 100%;
+}
+
+.main_img {
+  width: 75%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+#like {
+  color: white;
+  background-color: green;
+  border: 1px solid green;
+  font-size: 18px;
+  width: 150px;
+  height: 35px;
+  margin-right: 50px;
+}
+
+#dislike {
+  color: white;
+  background-color: red;
+  border: 1px solid red;
+  font-size: 18px;
+  width: 150px;
+  height: 35px;
+}
+
+#mark {
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.list_mark {
+  display: none;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+li img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
